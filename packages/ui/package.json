@@ -15,11 +15,11 @@
     "@repo/eslint-config": "*",
     "@repo/typescript-config": "*",
     "@turbo/gen": "^2.3.3",
-    "@types/eslint": "^8.56.5",
+    "@types/eslint": "^9.6.1",
     "@types/node": "^22.10.2",
     "@types/react": "^18.2.61",
     "@types/react-dom": "^18.2.19",
-    "eslint": "^8.57.0",
+    "eslint": "^9.17.0",
     "typescript": "^5"
   },
   "dependencies": {
