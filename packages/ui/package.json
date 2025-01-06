@@ -1,0 +1,29 @@
+{
+  "name": "@repo/ui",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "exports": {
+    "./testimonials": "./src/testimonials.tsx",
+    "./skills-bar": "./src/skills-bar.tsx"
+  },
+  "scripts": {
+    "lint": "eslint . --max-warnings 0",
+    "generate:component": "turbo gen react-component"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "*",
+    "@repo/typescript-config": "*",
+    "@turbo/gen": "^2.3.3",
+    "@types/eslint": "^8.56.5",
+    "@types/node": "^22.10.2",
+    "@types/react": "^18.2.61",
+    "@types/react-dom": "^18.2.19",
+    "eslint": "^8.57.0",
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "next": "^15",
+    "react": "^18"
+  }
+}

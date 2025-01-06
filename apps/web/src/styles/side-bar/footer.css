@@ -1,0 +1,31 @@
+.footer {
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 14px;
+    color: hsl(0, 0%, 84%);
+}
+
+.footer-copyright {
+    margin-bottom: 8px;
+}
+
+.footer-copyright a {
+    color: var(--orange-yellow-crayola);
+    text-decoration: underline;
+}
+
+.footer-links a {
+    color: var(--orange-yellow-crayola);
+    text-decoration: underline;
+    margin: 0 8px;
+}
+
+.footer-copyright a:hover {
+    text-decoration: underline;
+    text-decoration-color: hsla(0, 0%, 84%, 0.7);
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+    text-decoration-color: hsla(0, 0%, 84%, 0.7);
+}

@@ -1,0 +1,29 @@
+.timeline-text {
+    color: var(--light-gray);
+    font-weight: var(--fw-300);
+    line-height: 1.6;
+}
+
+.timeline-text ul li {
+    list-style: disc;
+}
+
+.timeline-text ul li ul li {
+    list-style: circle;
+}
+
+.timeline-text ul li ul li ul li {
+    list-style: square;
+}
+
+.timeline-text ol li {
+    list-style: decimal;
+}
+
+.timeline-text ol li ol li {
+    list-style: lower-alpha;
+}
+
+.timeline-text ol li ol li ol li {
+    list-style: lower-roman;
+}

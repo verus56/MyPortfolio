@@ -1,0 +1,30 @@
+.coding-item {
+  padding: 20px;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.coding-item::before {
+  inset: 1px;
+  background: var(--bg-gradient-jet);
+  z-index: -1;
+}
+
+.tech-stack-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  max-height: 150px;
+  /* Adjust as needed */
+  padding: 10px;
+}
+
+@media (min-width: 580px) {
+  .coding-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 18px;
+    padding: 30px;
+  }
+}

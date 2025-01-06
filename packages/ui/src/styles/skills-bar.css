@@ -1,0 +1,88 @@
+.skills-title {
+    margin-bottom: 20px;
+}
+
+.skills-list {
+    padding: 20px;
+}
+
+.skills-item:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.skill .title-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 8px;
+}
+
+.skill .title-wrapper data {
+    color: var(--light-gray);
+    font-size: var(--fs-7);
+    font-weight: var(--fw-300);
+}
+
+.skill-progress-bg {
+    background: var(--jet);
+    width: 100%;
+    height: 8px;
+    border-radius: 10px;
+}
+
+.skill-progress-fill {
+    background: var(--text-gradient-yellow);
+    height: 100%;
+    border-radius: inherit;
+}
+
+/*-----------------------------------*\
+    #PYTHON
+  \*-----------------------------------*/
+
+.skill-progress-fill-python {
+    background: #4584b6;
+    /* Gopher Blue */
+    height: 100%;
+    border-radius: inherit;
+}
+
+/*-----------------------------------*\
+    #GO
+  \*-----------------------------------*/
+
+.skill-progress-fill-go {
+    background: #00add8;
+    /* Python */
+    height: 100%;
+    border-radius: inherit;
+}
+
+/*-----------------------------------*\
+    #AWS
+  \*-----------------------------------*/
+
+.skill-progress-fill-aws-dark {
+    background: #232f3e;
+    height: 100%;
+    border-radius: inherit;
+}
+
+.skill-progress-fill-aws-light {
+    background: #ff9900;
+    height: 100%;
+    border-radius: inherit;
+}
+
+.title-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 25px;
+  }
+
+@media (min-width: 580px) {
+    .skills-item:not(:last-child) {
+        margin-bottom: 25px;
+    }
+}

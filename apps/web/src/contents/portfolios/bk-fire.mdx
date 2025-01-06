@@ -1,0 +1,119 @@
+---
+title: "Fire Detection and Response System 🔥"  
+startDate: 2022-01-01  
+endDate: 2022-12-31  
+publishedAt: 2022-06-15  
+category: AI Development  
+tags:  
+  - Fire Detection  
+  - CNN Model  
+  - Robotics  
+  - Real-Time Processing  
+  - Python  
+summary: "🔥 A real-time fire detection system using a CNN model for fire classification and a robotic system to detect and respond to fires."  
+banner: /images/banner/projects/4.png  
+alt: "Fire Detection and Response System: Real-Time Monitoring"  
+---
+
+🔥 A real-time fire detection system powered by a CNN model for classification and a robotic system designed to detect and respond to fires using sensors and actuators.
+
+<div align="center">  
+  <strong>  
+    <a href="https://github.com/verus56/bk-fire">💻 Source Code</a>&nbsp;&nbsp;&bull;&nbsp;  
+  </strong>  
+</div>  
+
+![Fire Detection and Response System: Real-Time Monitoring](/images/banner/projects/4.png)  
+
+## 📍 Abstract  
+
+The Fire Detection and Response System is designed to monitor and respond to fire incidents in real-time. The system leverages a Convolutional Neural Network (CNN) for fire classification and a robotic system equipped with sensors and actuators to detect and act upon fire events. The CNN model is trained to classify images into two categories: "fire" and "no fire." The robotic system is capable of responding to fire detection by activating various components, such as a water pump, buzzer, and robotic arm, to mitigate potential fire hazards.
+
+## 🌟 Features  
+
+- **Real-Time Fire Detection**: Detects and classifies fire from live video feeds.  
+- **CNN Model for Image Classification**: Uses a deep learning model for accurate fire detection.  
+- **Robotic Response System**: A robotic arm with sensors and actuators responds to detected fire events.  
+- **SMS Notification**: Sends SMS alerts to users when fire is detected.  
+- **Customizable Parameters**: Adjust the detection thresholds for optimal performance.  
+- **Ease of Use**: Run the Python scripts for both fire detection and robotic response with minimal setup.  
+
+## 🚀 Getting Started  
+
+### Prerequisites  
+
+Before you can run this project, ensure the following packages are installed:
+
+- TensorFlow  
+- Keras  
+- OpenCV  
+- Twilio  
+- Geocoder  
+- Raspberry Pi GPIO  
+
+### Installation  
+
+1. Clone the repository:  
+
+```bash  
+git clone https://github.com/verus56/bk-fire.git  
+cd fire-detection-system  
+```  
+
+2. Install required dependencies:  
+
+```bash  
+pip install tensorflow keras opencv-python twilio geocoder  
+```  
+
+3. Set up your Raspberry Pi with the necessary sensors (flame, smoke, etc.) and actuators (water pump, buzzer, LED, servo motor).  
+
+### Running the App  
+
+To test the model with the webcam:  
+
+```bash  
+python firewithtsms.py  
+```  
+
+To detect fire and send SMS alerts:  
+
+```bash  
+python fire-with-all.py  
+```  
+
+To run the robotic system:  
+
+```bash  
+python robot.py  
+```  
+
+## 🤖 How It Works  
+
+1. **Fire Detection**: The CNN model analyzes the video stream or images to detect fire and classify them.  
+2. **Robotic System**: Once fire is detected, the robotic system is activated to respond using sensors, a water pump, buzzer, and a servo-controlled robotic arm.  
+3. **SMS Alerts**: Twilio is used to send SMS notifications to the designated users when fire is detected.  
+
+## 📊 Technical Stack  
+
+- **AI Engine**: Convolutional Neural Network (CNN)  
+- **Image Processing**: OpenCV  
+- **Data Processing**: NumPy  
+- **Robotic System**: Raspberry Pi GPIO, Servo Motor, Water Pump  
+- **Cloud API**: Twilio (SMS Alerts)  
+- **Geocoding**: Geocoder  
+
+## 🛠️ Deployment  
+
+This system can be deployed on a Raspberry Pi or other compatible hardware for real-time fire detection and response.  
+
+## 📝 License  
+
+Released under the [MIT License](https://github.com/verus56/bk-fire/blob/main/LICENSE).  
+
+## 📲 Contact  
+
+**Made with ❤️ by Hamzaoui Thameur**  
+
+- GitHub: [Hamzaoui Thameur](https://github.com/verus56)  
+- Email: [thameurhameaoui9@gmail.com](mailto:thameurhameaoui9@gmail.com)  

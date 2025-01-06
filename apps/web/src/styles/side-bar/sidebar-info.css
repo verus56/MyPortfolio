@@ -1,0 +1,49 @@
+.sidebar-info {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+.avatar-box {
+    background: var(--bg-gradient-onyx);
+    border-radius: 20px;
+}
+
+@media (min-width: 375px) {
+    .avatar-box {
+        border-radius: 30px;
+    }
+
+    .avatar-box img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media (min-width: 580px) {
+    .sidebar-info {
+        gap: 25px;
+    }
+
+    .avatar-box {
+        border-radius: 30px;
+    }
+
+    .avatar-box img {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media (min-width: 1250px) {
+    .sidebar-info {
+        flex-direction: column;
+    }
+
+    .avatar-box img {
+        width: 150px;
+        height: 150px;
+    }
+}
