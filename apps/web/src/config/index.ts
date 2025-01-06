@@ -28,9 +28,9 @@ const config: Config = {
   author: "Verus56",
   keywords: ["HAMZAOUI Thameur", "verus56", "Visual Computing Engineer | AI & Machine Learning Expert", "AI", "Vision"],
   status: "Visual Computing Engineer | AI & Machine Learning Expert⚡️",
-  siteURL: "https://www.1chooo.com",
+  siteURL: "https://tmrdata.tech/",
   openGraph: {
-    url: "https://www.1chooo.com/",
+    url: "https://tmrdata.tech/",
     type: "website",
     siteName: "HAMZAOUI Thameur - v56 | Visual Computing Engineer | AI & Machine Learning Expert",
     title: "HAMZAOUI Thameur - v56 | Visual Computing Engineer | AI & Machine Learning Expert",
@@ -257,7 +257,7 @@ Outside of work, I enjoy basketball 🏀, gaming 🎮, photography 📸, and sto
         },
         {
           "company": "  Ministry of Youth and Sports of Algeria",
-          "location": "Taipei, Taiwan",
+          "location": "ALgeria",
           "role": " IT Technology in Arab Gaming",
           "duration": "Jul. 2023 - Aug. 2023",
           "tasksMarkdown": `
