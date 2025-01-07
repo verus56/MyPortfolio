@@ -14,7 +14,7 @@ function Contact() {
     email: '',
     message: ''
   });
-  const [status, setStatus] = useState({
+  const [status, setStatus] = useState<{ submitting: boolean; error: string | null }>({
     submitting: false,
     error: null
   });
@@ -23,7 +23,7 @@ function Contact() {
     document.title = `Contact | ${title}`;
   }, []);
 
-  const handleInputChange = (e) => {
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
     setFormData(prev => ({
       ...prev,
@@ -31,7 +31,7 @@ function Contact() {
     }));
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setStatus({ submitting: true, error: null });
 
