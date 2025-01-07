@@ -35,8 +35,8 @@ export default function robots() {
         userAgent: '*',
       },
     ],
-    sitemap: 'https://1chooo.com/sitemap.xml',
-    host: 'https://1chooo.com',
+    sitemap: 'http://www.tmrdata.tech/sitemap.xml',
+    host: 'http://www.tmrdata.tech/',
   };
 }
 

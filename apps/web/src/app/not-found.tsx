@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 const errorMessages = [
   'This page doesn\'t exist.',
-  'If this is a mistake, [let us know](https://github.com/1chooo/1chooo.com/issues/new), and we will try to fix it!',
+  
 ];
 
 function NotFound() {

@@ -25,8 +25,8 @@ export async function generateMetadata({ params }: { params: tParams }): Promise
     banner,
   } = post.metadata;
   let ogImage = banner
-    ? `https://1chooo.com${banner}`
-    : `https://1chooo.com/og?title=${title}`;
+    ? `http://www.tmrdata.tech${banner}`
+    : `ttp://www.tmrdata.tech/og?title=${title}`;
 
   return {
     title,
@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: { params: tParams }): Promise
       description,
       type: 'article',
       publishedTime,
-      url: `https://1chooo.com/portfolio/${post.slug}`,
+      url: `http://www.tmrdata.tech/portfolio/${post.slug}`,
       locale: 'en_US',
       images: [
         {

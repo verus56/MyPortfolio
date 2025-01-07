@@ -199,7 +199,7 @@ With this rewrite, we can add more articles through `postsData` without worrying
 
 Finally, I would like to share my thoughts on the implementation I made this time. I originally wanted to directly return all the author's writing in ReactComponent, and successfully displayed it on the webpage. However, I found that if I need to add more article content, my Component code needs to add nearly thirty lines at a time, and these codes are all repetitive (doing the same thing). Fortunately, I asked ChatGPT for a Code Review, which suggested using `map()`, allowing me to get to know this framework better. Wish you all "Happy New Year and no BUGs!"
 
-I hope you enjoyed this article and found it helpful. If you have any questions or suggestions, feel free to leave a comment below. You can also find me on [GitHub](https://github.com/1chooo) and You can also visit my [personal website](https://1chooo.com)
+I hope you enjoyed this article and found it helpful. If you have any questions or suggestions, feel free to leave a comment below. You can also find me on [GitHub](https://github.com/1chooo) and You can also visit my [personal website](http://www.tmrdata.tech)
 
 ---
 

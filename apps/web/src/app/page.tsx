@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     title: "HAMZAOUI Thameur - v56 | Computer Vision enginer",
     description:
       "I’m Hamzaoui Thameur, a Visual Computing Engineer with a passion for AI 🤖, Computer Vision 👁️, and Machine Learning 📊. I focus on developing innovative AI models, intelligent agents, and AI-powered mobile applications 📱 that solve real-world problems. With a strong engineering background and a curiosity for deep learning and automation 🔧, I strive to push the boundaries of technology. I’m also an open-source contributor 🌐, mentor, and lifelong learner 📚. Outside of work, I enjoy basketball 🏀, gaming 🎮, photography 📸, and storytelling 🎤. Let’s connect to explore my work!.",
-    images: "https://docs.1chooo.com/images/cover-with-1chooo-com.png",
+    images: "",
   },
   icons: {
     icon: '/favicon.ico',

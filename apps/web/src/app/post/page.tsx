@@ -80,7 +80,7 @@ async function BlogPosts({ searchParams }: { searchParams: tParams }) {
                   priority={false}
                   placeholder="blur"
                   loading="eager"
-                  blurDataURL="https://docs.1chooo.com/images/cover-with-1chooo-com.png"
+                  blurDataURL=""
                 />
               </figure>
               <div className="blog-content">

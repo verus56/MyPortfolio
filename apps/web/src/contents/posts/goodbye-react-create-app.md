@@ -12,7 +12,7 @@ alt: Updating an Outdated Create React App (CRA) to Support TypeScript 5.x
 
 > Create React App (CRA) was officially deprecated by Facebook, and it's time to move on to other alternatives. However, we can still use CRA with TypeScript `5.x` by adding `overrides` to the `package.json`. Let's see how to do it!
 
-During this past summer, I dedicated most of my time to developing my personal website, [1chooo.com](https://1chooo.com), addressing several technical debts that I had postponed due to time constraints. In the past, I primarily used [React](https://react.dev/) alongside [TypeScript](https://www.typescriptlang.org/) for development. However, recently, I encountered some issues, one of which is related to "[chore(deps): bump typescript from 4.9.5 to 5.5.4](https://github.com/1chooo/1chooo.com/pull/76)." The following error message was displayed:
+During this past summer, I dedicated most of my time to developing my personal website, [1chooo.com](http://www.tmrdata.tech), addressing several technical debts that I had postponed due to time constraints. In the past, I primarily used [React](https://react.dev/) alongside [TypeScript](https://www.typescriptlang.org/) for development. However, recently, I encountered some issues, one of which is related to "[chore(deps): bump typescript from 4.9.5 to 5.5.4](https://github.com/1chooo/1chooo.com/pull/76)." The following error message was displayed:
 
 ```typescript
 npm error code ERESOLVE
@@ -69,4 +69,4 @@ It's important to ensure that the version specified in `overrides` matches the T
 
 At this point, the TypeScript upgrade issue is successfully resolved. However, I see this as a temporary fix since CRA is no longer maintained. This has opened up a new path for me — migrating my React app to [Next.js](https://nextjs.org/), which not only addresses the lack of CRA support but also brings the benefits of Next.js. This is the new challenge I’ve set for myself.
 
-In the future, I plan to continue documenting my progress as I integrate my React app into Next.js, hoping the migration goes smoothly (even though it looks like I'll need to rewrite a lot!). Stay tuned for more updates, and feel free to check out my current personal website — [1chooo.com](https://1chooo.com) — or view the code on GitHub — [1chooo/1chooo.com](https://github.com/1chooo/1chooo.com). I hope this post helps anyone who’s facing similar issues!
+In the future, I plan to continue documenting my progress as I integrate my React app into Next.js, hoping the migration goes smoothly (even though it looks like I'll need to rewrite a lot!). Stay tuned for more updates, and feel free to check out my current personal website — [1chooo.com](http://www.tmrdata.tech) — or view the code on GitHub — [1chooo/1chooo.com](https://github.com/1chooo/1chooo.com). I hope this post helps anyone who’s facing similar issues!

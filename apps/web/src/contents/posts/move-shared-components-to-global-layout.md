@@ -16,7 +16,7 @@ alt: "Improve Next.js Performance: Move Shared Components to Global Layout"
 
 > Through Next.js's Global Layout, reduce the redundant loading of components to improve web performance.
 
-Today, I’m excited to share some front-end development techniques, as I continue working to add new features and pay off technical debt for my website 😢, [1chooo.com](https://1chooo.com). As part of my ongoing efforts, I’ve noticed that each page on my site utilizes a shared NavBar for navigation and a SideBar that provides access to my personal information. However, in my previous implementations, these components were duplicated across every page, meaning that every time a user navigated to a new page, the same information was reloaded. This redundant loading often led to issues—particularly with images failing to load during periods of poor network connectivity.
+Today, I’m excited to share some front-end development techniques, as I continue working to add new features and pay off technical debt for my website 😢, [1chooo.com](http://www.tmrdata.tech). As part of my ongoing efforts, I’ve noticed that each page on my site utilizes a shared NavBar for navigation and a SideBar that provides access to my personal information. However, in my previous implementations, these components were duplicated across every page, meaning that every time a user navigated to a new page, the same information was reloaded. This redundant loading often led to issues—particularly with images failing to load during periods of poor network connectivity.
 
 In this post, I’ll walk through the improvements I’ve made to address these problems, ensuring more efficient rendering and a smoother user experience.
 

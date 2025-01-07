@@ -11,13 +11,13 @@ export default async function sitemap() {
   let blogMaps = blogs.map((post: {
     metadata: { publishedAt: string }; slug: string
   }) => ({
-    url: `https://1chooo.com/post/${post.slug}`,
+    url: `http://www.tmrdata.tech/post/${post.slug}`,
     lastModified: post.metadata.publishedAt,
   }));
 
   let portfolios = await getPortfolioPosts();
   let portfolioMaps = portfolios.map((post: { metadata: { publishedAt: string }; slug: string }) => ({
-    url: `https://1chooo.com/portfolio/${post.slug}`,
+    url: `http://www.tmrdata.tech/portfolio/${post.slug}`,
     lastModified: post.metadata.publishedAt,
   }));
 
@@ -28,7 +28,7 @@ export default async function sitemap() {
     '/post',
     '/gallery'
   ].map((route) => ({
-    url: `https://1chooo.com${route}`,
+    url: `http://www.tmrdata.tech${route}`,
     lastModified: new Date().toISOString().split('T')[0],
   }));
 

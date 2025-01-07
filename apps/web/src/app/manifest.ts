@@ -7,7 +7,7 @@ const { title, description } = config;
 export default function manifest(): MetadataRoute.Manifest {
   return {
     name: `${title}`,
-    short_name: '1chooo.com',
+    short_name: 'tmrdata.tech',
     categories: ['portfolio', 'blog', 'personal', 'web development'],
     description: `${description}`,
     start_url: '/',

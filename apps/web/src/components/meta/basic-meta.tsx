@@ -11,7 +11,7 @@
 //     { keyword: "Next.js" },
 //     { keyword: "React" },
 //   ],
-//   baseURL: "https://1chooo.com",
+//   baseURL: "http://www.tmrdata.tech",
 //   postsPerPage: 10,
 //   twitterAccount: "@your_twitter_account",
 //   githubAccount: "your_github_account",

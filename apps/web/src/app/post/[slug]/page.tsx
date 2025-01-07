@@ -32,8 +32,8 @@ export async function generateMetadata(
     banner,
   } = post.metadata;
   let ogImage = banner
-    ? `https://1chooo.com${banner}`
-    : `https://1chooo.com/og?title=${title}`;
+    ? `ttp://www.tmrdata.tech${banner}`
+    : `ttp://www.tmrdata.tech/og?title=${title}`;
 
   return {
     title,

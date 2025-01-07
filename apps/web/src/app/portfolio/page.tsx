@@ -82,7 +82,7 @@ export default async function Portfolio({ searchParams }: { searchParams: tParam
                     placeholder="blur"
                     loading="eager"
                     quality={50}
-                    blurDataURL="https://docs.1chooo.com/images/cover-with-1chooo-com.png"
+                    blurDataURL=""
                   />
                 </figure>
                 <h3 className="project-title">
