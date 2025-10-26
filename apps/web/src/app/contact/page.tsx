@@ -73,7 +73,7 @@ function Contact() {
     <article>
       <PageHeader header="Contact" />
       <section className="mb-10">
-        <MapBox googleMapUrl="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51270.49086757693!2d3.4079721116796726!3d36.76426939514962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128e6b31111b2e3d%3A0x5893113cc5c42acd!2sBoumerd%C3%A8s%2C%20Algeria!5e0!3m2!1sen!2sus!4v1704614578414!5m2!1sen!2sus" />
+        <MapBox googleMapUrl="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9999999999995!2d2.2944813156746826!3d48.85884427928744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fdfdfdfdfdf%3A0x8c1e8c1e8c1e8c1e!2sEiffel%20Tower%2C%20Paris%2C%20France!5e0!3m2!1sen!2sus!4v1704614578414!5m2!1sen!2sus" />
         <h3 className="text-white-2 text-2xl font-bold mb-5">Contact Form</h3>
         <form onSubmit={handleSubmit} className="form" data-form>
           <div className="input-wrapper">
