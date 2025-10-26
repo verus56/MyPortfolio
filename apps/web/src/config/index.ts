@@ -243,6 +243,18 @@ Outside of work, I enjoy basketball 🏀, gaming 🎮, photography 📸, and sto
       "title": "Professional Experience",
       "items": [
         {
+          "company": "Disydev",
+          "location": "Algeria",
+          "role": "AI Engineer",
+          "duration": "Oct. 2024 - Sep. 2025",
+          "tasksMarkdown": `
+- Developed a medical conversational agent based on LLMs and RAG (Retrieval-Augmented Generation).
+- Designed and optimized supervised classification models for pathology detection.
+- Implemented a comprehensive medical platform using Django and microservices architecture.
+- Created an ETL pipeline integrating OCR, data cleaning, normalization, and structuring of medical data.
+          `,
+        },
+        {
           "company": " Buildingo Labs",
           "location": "Canada",
           "role": "AI/ML Engineer specializing in Mobile Applications",
