@@ -12,7 +12,7 @@ function DownloadCV() {
           href="./cv.pdf"
           target="_blank"
           className="text-orange-yellow-crayola underline font-bold flex items-center gap-4 hover:text-opacity-70">
-          Download Thameur full Curriculum Vitae/Resume (October 2024)
+          Download Thameur full Curriculum Vitae/Resume (October 2025)
         </Link>
       </div>
     </section>
