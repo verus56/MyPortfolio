@@ -70,7 +70,7 @@ function CodingStats({ techStacks, githubUsername }: CodingStatsProps) {
           <div className='absolute inset-x-0 bottom-[-190px] mx-auto aspect-square h-[388px] [@media(max-width:420px)]:bottom-[-140px] [@media(max-width:420px)]:h-[320px] [@media(min-width:768px)_and_(max-width:858px)]:h-[380px]'>
             <div className='flex items-center gap-2 text-white-2 mt-4 ml-4'>
               <LuMapPin size={18} />
-              <h2 className='text-sm font-light'>Algeria (UTC +01:00)</h2>
+              <h2 className='text-sm font-light'>France (UTC +01:00)</h2>
             </div>
             <Globe />
           </div>
