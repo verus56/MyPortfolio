@@ -9,7 +9,7 @@ function ContactsList() {
   return (
     <ul className="contacts-list">
       <ContactItem icon={LuMapPin} title="Location">
-        <address className="text-white-2 text-sm font-light">Algeria</address>
+        <address className="text-white-2 text-sm font-light">France</address>
       </ContactItem>
 
       <ContactItem icon={LuMail} title="Email">
