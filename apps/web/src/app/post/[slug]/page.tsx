@@ -40,11 +40,11 @@ export async function generateMetadata(
     description,
     openGraph: {
       title,
-      siteName: 'Chun-Ho (Hugo) Lin - 1chooo | Open Source Enthusiast',
+      siteName: 'HAMZAOUI Thameur V56 | Open Source Enthusiast',
       description,
       type: 'article',
       publishedTime,
-      url: `https://1chooo.com/post/${post.slug}`,
+      url: `ttp://www.tmrdata.tech/post/${post.slug}`,
       locale: 'en_US',
       images: [
         {

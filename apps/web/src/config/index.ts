@@ -135,6 +135,17 @@ Outside of work, I enjoy basketball 🏀, gaming 🎮, photography 📸, and sto
       "title": "Education",
       "items": [
         {
+          company: "Université Paris-Saclay",
+          location: "Paris, France",
+          role: "Master — Réalité Virtuelle et Systèmes Intelligents",
+          duration: "Sep. 2025 —",
+          tasksMarkdown: `
+- Program: Réalité Virtuelle et Systèmes Intelligents.
+- Focus: Virtual reality, intelligent systems, human–computer interaction, and immersive computing.
+- Expected start: Sep. 2025.
+`,
+        },
+        {
           company: "Université des Sciences et de la Technologie Houari Boumediene",
           location: "Algeria",
           role: "Master's Degree in Computer Vision",
