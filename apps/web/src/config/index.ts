@@ -142,7 +142,6 @@ Outside of work, I enjoy basketball 🏀, gaming 🎮, photography 📸, and sto
           tasksMarkdown: `
 - Program: Réalité Virtuelle et Systèmes Intelligents.
 - Focus: Virtual reality, intelligent systems, human–computer interaction, and immersive computing.
-- Expected start: Sep. 2025.
 `,
         },
         {
