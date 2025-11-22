@@ -271,9 +271,11 @@ Outside of work, I enjoy basketball 🏀, gaming 🎮, photography 📸, and sto
           "role": "Machine Learning Engineer",
           "duration": "sep. 2023 - Jun. 2024",
           "tasksMarkdown": `
-- Developed a customer support system that classifies tickets using ML and DL techniques.
-- Extracted textual data from ticket images using OCR technologies.
-- Applied transformer-based models to propose solutions for customer challenges.
+- Création d’un pipeline : extraction, nettoyage, visualisation des données.
+- Classification de tickets clients avec RNN (LSTM, GRU) et BERT.
+- Implémentation d’un OCR avec CRNN et EAST.
+- Développement d’agents RAG avancés pour la génération de réponses.
+
 
           `,
         },
