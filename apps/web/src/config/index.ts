@@ -292,11 +292,11 @@ Outside of work, I enjoy basketball 🏀, gaming 🎮, photography 📸, and sto
         {
           "company": "Air Algérie",
           "location": "Algeria",
-          "role": "Mobile Development and DevOps intern",
+          "role": "Data Science ",
           "duration": "Jul. 2023 - sep. 2023",
           "tasksMarkdown": `
-- Partnered with the mobile development team to design innovative mobile applications.
-- Implemented DevOps practices to streamline development and deployment processes.
+- Développement d’un classifieur de spams par machine learning : extraction de features depuis contenu et métadonnées d’e‑mails (mots‑
+- clés, fréquence, longueur, expéditeur), entraînement et comparaison de modèles supervisés et réseaux neuronaux
           `,
         },
 
