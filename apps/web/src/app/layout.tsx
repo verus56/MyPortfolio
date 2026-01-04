@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Hamzaoui Thameur | Visual Computing Engineer ",
     description:
-      "i, I’m Hamzaoui Thameur, a Visual Computing Engineer with a passion for AI 🤖, Computer Vision 👁️, and Machine Learning 📊. I focus on developing innovative AI models, intelligent agents, and AI-powered mobile applications 📱 that solve real-world problems. With a strong engineering background and a curiosity for deep learning and automation 🔧, I strive to push the boundaries of technology. I’m also an open-source contributor 🌐, mentor, and lifelong learner 📚.Outside of work, I enjoy basketball 🏀, gaming 🎮, photography 📸, and storytelling 🎤. Let’s connect to explore my work!.",
+      "Hi, I’m Hamzaoui Thameur, a visionary Visual Computing Engineer with a deep passion for AI 🤖, Computer Vision 👁️, Machine Learning 📊, and Generative AI 🎨. I specialize in crafting groundbreaking AI models, designing intelligent agents, and building AI-powered mobile applications 📱 that address real-world challenges. With a robust engineering foundation and an insatiable curiosity for deep learning and automation 🔧, I aim to redefine the boundaries of technology. Beyond my professional endeavors, I’m an open-source advocate 🌐, a dedicated mentor, and a lifelong learner 📚. When I’m not immersed in code, you’ll find me on the basketball court 🏀, exploring virtual worlds 🎮, capturing moments through photography 📸, or weaving stories 🎤. Let’s connect and create something extraordinary together!.",
    
   },
   icons: {
