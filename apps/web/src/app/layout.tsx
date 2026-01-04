@@ -7,6 +7,7 @@ import config from "@/config";
 import { roboto } from "./font";
 import { WebVitals } from "@/components/web-vitals";
 import { ProgressBar } from "@/components/progress-bar";
+import { Analytics } from "@vercel/analytics/next";
 
 import "./globals.css";
 
@@ -86,6 +87,7 @@ function RootLayout({ children }: RootLayoutProps) {
       </body>
       <GoogleAnalytics gaId={googleAnalyticId} />
       <GoogleTagManager gtmId={googleTagManagerId} />
+      <Analytics />
     </html>
   );
 }
