@@ -22,7 +22,7 @@ import {
 } from "react-icons/tb";
 
 const config: Config = {
-  avatar: '/images/banner/projects/fin.png',
+  avatar: 'apps\\web\\public\\fin.png',
   title: "HAMZAOUI Thameur - v56 | Visual Computing Engineer | AI & Machine Learning Expert",
   description: ", I’m Hamzaoui Thameur, a Visual Computing Engineer with a passion for AI 🤖, Computer Vision 👁️, and Machine Learning 📊.",
   author: "Verus56",
